@@ -1,0 +1,274 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #F0EDE5;
+}
+
+.container{
+    width: 100%;
+    padding-top: 20px;
+}
+
+h2 {
+    margin-bottom: 30px;
+    text-align: center;
+}
+.nav-link i {
+    margin-right: 8px;
+}
+
+.sidebar {
+    width: 250px;
+    height: 100vh;
+    background: #333;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.sidebar img {
+    display: block;
+    margin: 0 auto 20px;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.sidebar h2 {
+    font-size: 20px;
+    text-align: center;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.sidebar ul li {
+    margin-bottom: 25px;
+    padding-left: 10px;
+}
+
+.sidebar ul li a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 10px 0;
+    transition: padding-left 0.3s ease;
+}
+
+.sidebar ul li a:hover {
+    padding-left: 15px;
+}
+
+
+.content, .content-two, .content-section {
+    margin-left: 250px;
+    padding: 20px;
+    box-sizing: border-box;
+    display: none; 
+}
+
+.content-section.active {
+    display: block; 
+}
+
+.table {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+    table-layout: auto; 
+}
+
+.table th, .table td {
+    text-align: center;
+    padding: 10px;
+    white-space: nowrap; 
+}
+
+.backdrop-column {
+    width: 100px; 
+}
+
+.medium th, .medium td {
+    font-size: 15px;
+}
+
+
+.table-small {
+    font-size: 14px; 
+}
+
+.content h2, .content-two h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+#admin, #reports {
+    margin-left: 250px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#add-admin h2{
+    display: flex;
+    margin: auto;
+    margin-top: 90px;
+    margin-bottom: 20px;
+    justify-content: center;
+    text-align: center;
+}
+#add-reservation h2{
+    display: flex;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    justify-content: center;
+    text-align: center;
+}
+
+.photo-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: #ffffff;
+    border: 2px solid #ccc;
+    margin: auto; 
+    padding: 20px; 
+    width: 80%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.photo-one, .photo {
+    width: 25%; 
+    margin-left: -152px;
+}
+
+.details {
+    width: 55%; 
+    margin-left: 20px; 
+}
+
+.details h3 {
+    font-size: 1.5em;
+    color: #333;
+}
+
+.details h4 {
+    margin-top: -30px;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.details p {
+    color: #333; 
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.details ul {
+    padding-left: 20px; 
+}
+
+.details li {
+    margin-bottom: 5px; 
+}
+
+.styled-button {
+    margin-top: 20px;
+    display: inline-block;
+    padding: 12px 24px; 
+    font-size: 15px; 
+    font-family: 'Poppins', sans-serif; 
+    text-transform: uppercase; 
+    text-decoration: none; 
+    border-radius: 20px; 
+    border: none; 
+    background-color: #000000; 
+    color: white;
+    cursor: pointer; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; 
+}
+.btn-two{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+}
+
+
+.details-forms {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px; 
+    width: 100%;
+}
+
+.appointment-form {
+    display: flex; 
+    justify-content: space-between; 
+    flex-wrap: wrap; 
+    width: 100%; 
+}
+
+.column {
+    flex: 1;
+    margin-right: 20px; 
+}
+
+.column:last-child {
+    margin-right: 0; 
+}
+
+label {
+    margin-top: 10px; 
+}
+
+input, select {
+    margin-bottom: 15px;
+    padding: 8px;
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    width: 100%; 
+    box-sizing: border-box;
+}
+
+
+.modal-dialog {
+    max-width: 600px;
+    width: 90%; 
+    margin: 30px auto; 
+}
+
+.modal-content {
+    box-sizing: border-box;
+}
+
+
+.modal-content input,
+.modal-content select {
+    width: 100%;
+}
+
+
+.modal-header,
+.modal-footer {
+    display: flex;
+    justify-content: space-between; 
+    flex-wrap: wrap; /
+}
+
+
+.modal-header .close {
+    font-size: 1.5rem;
+    line-height: 1;
+}

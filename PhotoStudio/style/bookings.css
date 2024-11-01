@@ -1,0 +1,168 @@
+body {
+    font-family: 'Poppins';
+    min-height: 170vh;
+    background-color: #F0EDE5;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #F0EDE5;
+    margin-bottom: -10px;
+    border-bottom: 1px solid #000000;
+}
+
+.nav_list {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    margin-right: 40px;
+}
+
+.nav_item a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #333;
+    font-weight: bold;
+}
+
+.social-media {
+    font-size: 20px;
+    color: #333;
+    font-weight: bold;
+    margin-Left: 40px;
+}
+
+.link--icon i {
+    font-size: 30px;
+    color: #333;
+}
+
+.title{
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.appointment-logo{
+    font-size: 25px;
+    color: #333;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    width: 70%; 
+    margin: 0 auto; 
+
+}
+
+.photo-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    background: #ffffff; 
+    border: 2px solid #ccc; 
+    margin: 10px; 
+    padding: 20px; 
+    width: 80%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+}
+
+.photo {
+    width: 25%; 
+    margin-left: -130px;
+}
+
+.details {
+    margin-top: 10px;
+    margin-left: 20px; 
+}
+
+.details h3 {
+    font-size: 1.5em; 
+    margin-bottom: -20px; 
+    color: #333; 
+}
+
+.details p {
+    color: #666; 
+    font-size: 1em;
+    margin-bottom: 20px; 
+    color: #333;
+    font-weight: bold;
+}
+
+.details {
+    margin-top: 10px;
+    margin-left: 20px; 
+}
+
+.details ul {
+    padding-left: 20px; 
+    margin: 0; 
+}
+
+.details li {
+    margin-bottom: 5px; 
+}
+
+
+.styled-button {
+    margin-top: 20px;
+    display: inline-block;
+    padding: 12px 24px; 
+    font-size: 15px; 
+    font-family: 'Poppins', sans-serif; 
+    text-transform: uppercase; 
+    text-decoration: none; 
+    border-radius: 20px; 
+    border: none; 
+    background-color: #000000; 
+    color: white;
+    cursor: pointer; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.footer{
+    border-top: 1px solid #000000;
+    justify-content: center;
+    text-align: center;
+    margin: 60px auto 0 auto;
+}
+
+.footer p{
+    text-decoration: none;
+}
+
+#footer-facebook, #footer-instagram{
+    font-size: 20px;
+    margin-right: 10px;
+}
+#footer-tiktok{
+    font-size: 20px;
+}
+
+.footer p{
+    text-decoration: none;
+}
+
+
+.footer a {
+    color:#000000;
+    text-decoration: none; 
+    outline: none;
+}
+
+.footer a:focus,
+.footer a:hover {
+    color:#000000;
+    outline: none; 
+}
